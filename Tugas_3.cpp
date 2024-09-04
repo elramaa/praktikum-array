@@ -25,6 +25,6 @@ int main(){
 	cin >> kota3;
 
 	int totalJarak = jarak[kota1][kota2] + jarak[kota2][kota3];
-	printf("Jarak kota %c -> %c -> %c = %d", kota[kota1], kota[kota2], kota[kota3], totalJarak);
+	printf("Jarak kota %c -> %c -> %c = %d km", kota[kota1], kota[kota2], kota[kota3], totalJarak);
 	return 0;
 }
